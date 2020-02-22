@@ -47,7 +47,7 @@
     transform: rotate(360deg);
   }
 }
-
+/* 
 #main {
     margin: auto;
     display: flex;
@@ -131,6 +131,13 @@ li {
     z-index: -1;
 }
 
+.connector {
+    width: 20%;
+    margin-left: 100%;
+    margin-top: -10%;
+    border-top: 1px solid black;
+}
+
 #center {
     margin: auto;
     border: 1px solid black;
@@ -146,4 +153,106 @@ li {
 .filler {
     flex: 4;
     margin: -10% 5%;
+} */
+
+#container { 
+    width: 800px; 
+    height: 600px; 
+    float: left; 
+}
+
+section { 
+    width: 130px; 
+    height: 520px; 
+    float: left;
+}
+
+section > div { 
+    width: 100px; 
+    height: 20px; 
+    border: 1px solid #000; 
+    margin: 10px 0; 
+    background: #73789F; 
+    color: white; 
+    padding: 10px 10px 10px 20px;
+}
+
+section > div:nth-child(2n) { 
+    margin-bottom: 40px;
+}
+
+.connecter { 
+    width: 30px; 
+    height: 520px; 
+    float: left; 
+}
+
+.line { 
+    width: 30px; 
+    height: 520px; 
+    float: left; 
+}
+
+.connecter div { 
+    border: 1px solid #000; 
+    border-left: none; 
+    height: 50px; 
+    width: 100%; 
+    margin: 80px 0 0 1px;
+}
+
+.connecter div:first-child { 
+    margin: 32px 0 0 1px; 
+}
+
+.line div { 
+    border-top: 1px solid #000; 
+    margin: 133px 0 0 1px; 
+}
+
+.line div:first-child { 
+    margin-top: 55px; 
+}
+
+#quarterFinals > div { 
+    margin-top: 91px; 
+}
+
+#quarterFinals > div:first-child { 
+    margin-top: 37px; 
+}
+
+#conn2 div { 
+    margin-top: 133px; 
+    height: 133px;
+}
+
+#conn2 div:first-child { 
+    margin-top: 57px; 
+}
+
+#line2 div { 
+    margin-top: 270px; 
+}
+
+#line2 div:first-child { 
+    margin-top: 125px; 
+}
+#semiFinals > div { 
+    margin-top: 230px; 
+}
+#semiFinals > div:first-child { 
+    margin-top: 105px; 
+}
+#conn3 div { 
+    margin-top: 125px; 
+    height: 270px;
+}
+
+#line3 div { 
+    margin-top: 270px; 
+}
+
+#final > div { 
+    margin-top: 250px; 
 }

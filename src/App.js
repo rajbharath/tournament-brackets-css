@@ -33,77 +33,139 @@ function App() {
             <div id="main">
                 <div id="left">
                     <div id="top">
-                        <div class="round round-1">
-                            <div class="box">
-                                <div class="knocked-out team-name">Team name</div>
-                                <div class="selected team-name">Team name</div>
+                        <article id="container">
+
+                            <section>
+                                <div>Player 1</div>
+                                <div>Player 2</div>
+                                <div>Player 3</div>
+                                <div>Player 4</div>
+                                <div>Player 5</div>
+                                <div>Player 6</div>
+                                <div>Player 7</div>
+                                <div>Player 8</div>
+                            </section>
+
+                            <div class="connecter">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
                             </div>
-                            <div class="box">
-                                <div class="team-name">Team name</div>
-                                <div class="team-name">Team name</div>
+
+                            <div class="line">
+                                <div>
+                                </div><div>
+                                </div><div>
+                                </div><div>
+                                </div>
                             </div>
-                            <div class="box">
-                                <div class="team-name">Team name</div>
-                                <div class="team-name">Team name</div>
+
+                            <section id="quarterFinals">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </section>
+
+                            <div class="connecter" id="conn2">
+                                <div></div>
+                                <div></div>
                             </div>
-                            <div class="box">
-                                <div class="team-name">Team name</div>
-                                <div class="team-name">Team name</div>
+
+                            <div class="line" id="line2">
+                                <div></div>
+                                <div></div>
                             </div>
-                        </div>
-                        <div class="round round-2">
-                            <div class="box">
-                                <div class="team-name">Team name</div>
-                                <div class="team-name">Team name</div>
+
+                            <section id="semiFinals">
+                                <div></div>
+                                <div></div>
+                            </section>
+
+                            <div class="connecter" id="conn3">
+                                <div></div>
                             </div>
-                            <div class="box">
-                                <div class="team-name">Team name</div>
-                                <div class="team-name">Team name</div>
+
+                            <div class="line" id="line3">
+                                <div></div>
                             </div>
-                        </div>
-                        <div class="round round-3">
-                            <div class="box">
-                                <div class="team-name">Team name</div>
-                                <div class="team-name">Team name</div>
-                            </div>
-                        </div>
+
+                            <section id="final">
+                                <div></div>
+                            </section>
+
+                        </article>
+
+
                     </div>
 
                     <div id="bottom">
-                    <div class="round round-1">
-                            <div class="box">
-                                <div class="knocked-out team-name">Team name</div>
-                                <div class="selected team-name">Team name</div>
+                        <article id="container">
+
+                            <section>
+                                <div>Player 1</div>
+                                <div>Player 2</div>
+                                <div>Player 3</div>
+                                <div>Player 4</div>
+                                <div>Player 5</div>
+                                <div>Player 6</div>
+                                <div>Player 7</div>
+                                <div>Player 8</div>
+                            </section>
+
+                            <div class="connecter">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
                             </div>
-                            <div class="box">
-                                <div class="team-name">Team name</div>
-                                <div class="team-name">Team name</div>
+
+                            <div class="line">
+                                <div>
+                                </div><div>
+                                </div><div>
+                                </div><div>
+                                </div>
                             </div>
-                            <div class="box">
-                                <div class="team-name">Team name</div>
-                                <div class="team-name">Team name</div>
+
+                            <section id="quarterFinals">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </section>
+
+                            <div class="connecter" id="conn2">
+                                <div></div>
+                                <div></div>
                             </div>
-                            <div class="box">
-                                <div class="team-name">Team name</div>
-                                <div class="team-name">Team name</div>
+
+                            <div class="line" id="line2">
+                                <div></div>
+                                <div></div>
                             </div>
-                        </div>
-                        <div class="round round-2">
-                            <div class="box">
-                                <div class="team-name">Team name</div>
-                                <div class="team-name">Team name</div>
+
+                            <section id="semiFinals">
+                                <div></div>
+                                <div></div>
+                            </section>
+
+                            <div class="connecter" id="conn3">
+                                <div></div>
                             </div>
-                            <div class="box">
-                                <div class="team-name">Team name</div>
-                                <div class="team-name">Team name</div>
+
+                            <div class="line" id="line3">
+                                <div></div>
                             </div>
-                        </div>
-                        <div class="round round-3">
-                            <div class="box">
-                                <div class="team-name">Team name</div>
-                                <div class="team-name">Team name</div>
-                            </div>
-                        </div>
+
+                            <section id="final">
+                                <div></div>
+                            </section>
+
+                        </article>
+
+
                     </div>
                 </div>
                 <div id="center">
@@ -111,76 +173,138 @@ function App() {
                 </div>
                 <div id="right">
                     <div id="top">
-                    <div class="round round-1">
-                            <div class="box">
-                                <div class="knocked-out team-name">Team name</div>
-                                <div class="selected team-name">Team name</div>
+                        <article id="container">
+
+                            <section>
+                                <div>Player 1</div>
+                                <div>Player 2</div>
+                                <div>Player 3</div>
+                                <div>Player 4</div>
+                                <div>Player 5</div>
+                                <div>Player 6</div>
+                                <div>Player 7</div>
+                                <div>Player 8</div>
+                            </section>
+
+                            <div class="connecter">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
                             </div>
-                            <div class="box">
-                                <div class="team-name">Team name</div>
-                                <div class="team-name">Team name</div>
+
+                            <div class="line">
+                                <div>
+                                </div><div>
+                                </div><div>
+                                </div><div>
+                                </div>
                             </div>
-                            <div class="box">
-                                <div class="team-name">Team name</div>
-                                <div class="team-name">Team name</div>
+
+                            <section id="quarterFinals">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </section>
+
+                            <div class="connecter" id="conn2">
+                                <div></div>
+                                <div></div>
                             </div>
-                            <div class="box">
-                                <div class="team-name">Team name</div>
-                                <div class="team-name">Team name</div>
+
+                            <div class="line" id="line2">
+                                <div></div>
+                                <div></div>
                             </div>
-                        </div>
-                        <div class="round round-2">
-                            <div class="box">
-                                <div class="team-name">Team name</div>
-                                <div class="team-name">Team name</div>
+
+                            <section id="semiFinals">
+                                <div></div>
+                                <div></div>
+                            </section>
+
+                            <div class="connecter" id="conn3">
+                                <div></div>
                             </div>
-                            <div class="box">
-                                <div class="team-name">Team name</div>
-                                <div class="team-name">Team name</div>
+
+                            <div class="line" id="line3">
+                                <div></div>
                             </div>
-                        </div>
-                        <div class="round round-3">
-                            <div class="box">
-                                <div class="team-name">Team name</div>
-                                <div class="team-name">Team name</div>
-                            </div>
-                        </div>
+
+                            <section id="final">
+                                <div></div>
+                            </section>
+
+                        </article>
+
+
                     </div>
                     <div id="bottom">
-                    <div class="round round-1">
-                            <div class="box">
-                                <div class="knocked-out team-name">Team name</div>
-                                <div class="selected team-name">Team name</div>
+                        <article id="container">
+
+                            <section>
+                                <div>Player 1</div>
+                                <div>Player 2</div>
+                                <div>Player 3</div>
+                                <div>Player 4</div>
+                                <div>Player 5</div>
+                                <div>Player 6</div>
+                                <div>Player 7</div>
+                                <div>Player 8</div>
+                            </section>
+
+                            <div class="connecter">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
                             </div>
-                            <div class="box">
-                                <div class="team-name">Team name</div>
-                                <div class="team-name">Team name</div>
+
+                            <div class="line">
+                                <div>
+                                </div><div>
+                                </div><div>
+                                </div><div>
+                                </div>
                             </div>
-                            <div class="box">
-                                <div class="team-name">Team name</div>
-                                <div class="team-name">Team name</div>
+
+                            <section id="quarterFinals">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </section>
+
+                            <div class="connecter" id="conn2">
+                                <div></div>
+                                <div></div>
                             </div>
-                            <div class="box">
-                                <div class="team-name">Team name</div>
-                                <div class="team-name">Team name</div>
+
+                            <div class="line" id="line2">
+                                <div></div>
+                                <div></div>
                             </div>
-                        </div>
-                        <div class="round round-2">
-                            <div class="box">
-                                <div class="team-name">Team name</div>
-                                <div class="team-name">Team name</div>
+
+                            <section id="semiFinals">
+                                <div></div>
+                                <div></div>
+                            </section>
+
+                            <div class="connecter" id="conn3">
+                                <div></div>
                             </div>
-                            <div class="box">
-                                <div class="team-name">Team name</div>
-                                <div class="team-name">Team name</div>
+
+                            <div class="line" id="line3">
+                                <div></div>
                             </div>
-                        </div>
-                        <div class="round round-3">
-                            <div class="box">
-                                <div class="team-name">Team name</div>
-                                <div class="team-name">Team name</div>
-                            </div>
-                        </div>
+
+                            <section id="final">
+                                <div></div>
+                            </section>
+
+                        </article>
+
+
                     </div>
                 </div>
             </div>
