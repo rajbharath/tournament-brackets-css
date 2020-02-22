@@ -47,7 +47,7 @@
     transform: rotate(360deg);
   }
 }
-/* 
+
 #main {
     margin: auto;
     display: flex;
@@ -68,7 +68,7 @@
     margin: 50px;
 }
 
-
+/* 
 #left > #top .team-name {
     background-color: var(--group-1-team-color);
 }
@@ -254,5 +254,109 @@ section > div:nth-child(2n) {
 }
 
 #final > div { 
+    margin-top: 250px; 
+}
+
+
+
+#right #container { 
+    width: 800px; 
+    height: 600px; 
+    float: right; 
+}
+
+#right section { 
+    width: 130px; 
+    height: 520px; 
+    float: right;
+}
+
+section > div { 
+    width: 100px; 
+    height: 20px; 
+    border: 1px solid #000; 
+    margin: 10px 0; 
+    background: #73789F; 
+    color: white; 
+    padding: 10px 10px 10px 20px;
+}
+
+section > div:nth-child(2n) { 
+    margin-bottom: 40px;
+}
+
+#right .connecter { 
+    width: 30px; 
+    height: 520px; 
+    float: right; 
+}
+
+#right .line { 
+    width: 30px; 
+    height: 520px; 
+    float: right; 
+}
+
+#right .connecter div { 
+    border: 1px solid #000; 
+    border-right: none; 
+    height: 50px; 
+    width: 100%; 
+    margin: 80px 0 0 1px;
+}
+
+#right .connecter div:first-child { 
+    margin: 32px 0 0 1px; 
+}
+
+#right .line div { 
+    border-top: 1px solid #000; 
+    margin: 133px 0 0 1px; 
+}
+
+#right .line div:first-child { 
+    margin-top: 55px; 
+}
+
+#quarterFinals > div { 
+    margin-top: 91px; 
+}
+
+#quarterFinals > div:first-child { 
+    margin-top: 37px; 
+}
+
+#right #conn2 div { 
+    margin-top: 133px; 
+    height: 133px;
+}
+
+#right #conn2 div:first-child { 
+    margin-top: 57px; 
+}
+
+#right #line2 div { 
+    margin-top: 270px; 
+}
+
+#right #line2 div:first-child { 
+    margin-top: 125px; 
+}
+#semiFinals > div { 
+    margin-top: 230px; 
+}
+#semiFinals > div:first-child { 
+    margin-top: 105px; 
+}
+#right #conn3 div { 
+    margin-top: 125px; 
+    height: 270px;
+}
+
+#right #line3 div { 
+    margin-top: 270px; 
+}
+
+#right #final > div { 
     margin-top: 250px; 
 }
