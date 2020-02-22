@@ -36,3 +36,89 @@
     transform: rotate(360deg);
   }
 }
+
+#main {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+
+#left, #right {
+    display: flex;
+    flex-direction: column;
+}
+
+#top, #bottom {
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    margin: 50px;
+    margin: 50px;
+}
+
+#left > #top > .round-3{
+    background-color: aquamarine;
+}
+#left > #top li {
+    background-color: pink;
+}
+
+#left > #bottom > .round-3 {
+    background-color: bisque;
+}
+#left > #bottom li {
+    background-color: orange;
+}
+#right > #top > .round-3{
+    background-color: greenyellow;
+}
+
+#right > #top li {
+    background-color: green;
+}
+
+#right > #bottom > .round-3 {
+    background-color: cyan;
+}
+
+#right > #bottom li {
+    background-color: blue;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+    margin: 5px;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
+.knocked-out{
+    color: aliceblue;
+}
+
+.selected{
+    font-weight: bold;
+}
+
+.after-space:nth-child(4n + 2){
+    flex: 2;
+    margin: -10% 0;
+}
+
+.after-space:nth-child(4n + 4){
+    border: 1px solid black;
+    background-color: white;
+}
+
+#center {
+    margin: auto;
+    border: 1px solid black;
+    padding: 1%;
+}
+
+.round {
+    display: flex;
+    flex-direction: column;
+}
