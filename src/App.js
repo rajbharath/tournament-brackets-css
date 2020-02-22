@@ -34,70 +34,75 @@ function App() {
                 <div id="left">
                     <div id="top">
                         <ul class="round round-1">
-                            <li class="knocked-out">Team name</li>
-                            <li class="after-space">&nbsp;</li>
-                            <li class="selected">Team name</li>
-                            <li class="after-space">&nbsp;</li>
-                            <li class="">Team name</li>
-                            <li class="after-space">&nbsp;</li>
-                            <li class="">Team name</li>
-                            <li class="after-space">&nbsp;</li>
-                            <li class="">Team name</li>
-                            <li class="after-space">&nbsp;</li>
-                            <li class="">Team name</li>
-                            <li class="after-space">&nbsp;</li>
-                            <li class="">Team name</li>
-                            <li class="after-space">&nbsp;</li>
-                            <li class="">Team name</li>
+                            <div class="box">
+                                <li class="knocked-out team-name">Team name</li>
+                                <li class="selected team-name">Team name</li>
+                            </div>
+                            <div class="box">
+                                <li class="team-name">Team name</li>
+                                <li class="team-name">Team name</li>
+                            </div>
+                            <div class="box">
+                                <li class="team-name">Team name</li>
+                                <li class="team-name">Team name</li>
+                            </div>
+                            <div class="box">
+                                <li class="team-name">Team name</li>
+                                <li class="team-name">Team name</li>
+                            </div>
                         </ul>
                         <ul class="round round-2">
-                            <li class="">Team name</li>
-                            <li class="after-space">&nbsp;</li>
-                            <li class="">Team name</li>
-                            <li class="after-space">&nbsp;</li>
-                            <li class="">Team name</li>
-                            <li class="after-space">&nbsp;</li>
-                            <li class="">Team name</li>
-                            <li class="after-space">&nbsp;</li>
+                            <div class="box">
+                                <li class="team-name">Team name</li>
+                                <li class="team-name">Team name</li>
+                            </div>
+                            <div class="box">
+                                <li class="team-name">Team name</li>
+                                <li class="team-name">Team name</li>
+                            </div>
                         </ul>
                         <ul class="round round-3">
-                            <li class="">Team name</li>
-                            <li class="after-space">&nbsp;</li>
-                            <li class="">Team name</li>
+                            <div class="box">
+                                <li class="team-name">Team name</li>
+                                <li class="team-name">Team name</li>
+                            </div>
                         </ul>
                     </div>
 
                     <div id="bottom">
-                        <ul class="round round-1">
-                            <li class="">Team name</li>
-                            <li class="after-space">&nbsp;</li>
-                            <li class="">Team name</li>
-                            <li class="after-space">&nbsp;</li>
-                            <li class="">Team name</li>
-                            <li class="after-space">&nbsp;</li>
-                            <li class="">Team name</li>
-                            <li class="after-space">&nbsp;</li>
-                            <li class="">Team name</li>
-                            <li class="after-space">&nbsp;</li>
-                            <li class="">Team name</li>
-                            <li class="after-space">&nbsp;</li>
-                            <li class="">Team name</li>
-                            <li class="after-space">&nbsp;</li>
-                            <li class="">Team name</li>
+                    <ul class="round round-1">
+                            <div class="box">
+                                <li class="knocked-out team-name">Team name</li>
+                                <li class="selected team-name">Team name</li>
+                            </div>
+                            <div class="box">
+                                <li class="team-name">Team name</li>
+                                <li class="team-name">Team name</li>
+                            </div>
+                            <div class="box">
+                                <li class="team-name">Team name</li>
+                                <li class="team-name">Team name</li>
+                            </div>
+                            <div class="box">
+                                <li class="team-name">Team name</li>
+                                <li class="team-name">Team name</li>
+                            </div>
                         </ul>
                         <ul class="round round-2">
-                            <li class="">Team name</li>
-                            <li class="after-space">&nbsp;</li>
-                            <li class="">Team name</li>
-                            <li class="after-space">&nbsp;</li>
-                            <li class="">Team name</li>
-                            <li class="after-space">&nbsp;</li>
-                            <li class="">Team name</li>
+                            <div class="box">
+                                <li class="team-name">Team name</li>
+                                <li class="team-name">Team name</li>
+                            </div>
+                            <div class="box">
+                                <li class="team-name">Team name</li>
+                                <li class="team-name">Team name</li>
+                            </div>
                         </ul>
                         <ul class="round round-3">
-                            <li class="">Team name</li>
-                            <li class="after-space">&nbsp;</li>
-                            <li class="">Team name</li>
+                            <div class="box">
+                                <li class="team-name">Team name</li>
+                                <li class="team-name">Team name</li>
+                            </div>
                         </ul>
                     </div>
                 </div>
@@ -106,71 +111,75 @@ function App() {
                 </div>
                 <div id="right">
                     <div id="top">
-                        <ul class="round round-3">
-                            <li class="">Team name</li>
-                            <li class="after-space">&nbsp;</li>
-                            <li class="">Team name</li>
+                    <ul class="round round-1">
+                            <div class="box">
+                                <li class="knocked-out team-name">Team name</li>
+                                <li class="selected team-name">Team name</li>
+                            </div>
+                            <div class="box">
+                                <li class="team-name">Team name</li>
+                                <li class="team-name">Team name</li>
+                            </div>
+                            <div class="box">
+                                <li class="team-name">Team name</li>
+                                <li class="team-name">Team name</li>
+                            </div>
+                            <div class="box">
+                                <li class="team-name">Team name</li>
+                                <li class="team-name">Team name</li>
+                            </div>
                         </ul>
                         <ul class="round round-2">
-                            <li class="">Team name</li>
-                            <li class="after-space">&nbsp;</li>
-                            <li class="">Team name</li>
-                            <li class="after-space">&nbsp;</li>
-                            <li class="">Team name</li>
-                            <li class="after-space">&nbsp;</li>
-                            <li class="">Team name</li>
+                            <div class="box">
+                                <li class="team-name">Team name</li>
+                                <li class="team-name">Team name</li>
+                            </div>
+                            <div class="box">
+                                <li class="team-name">Team name</li>
+                                <li class="team-name">Team name</li>
+                            </div>
                         </ul>
-
-                        <ul class="round round-1">
-                            <li class="">Team name</li>
-                            <li class="after-space">&nbsp;</li>
-                            <li class="">Team name</li>
-                            <li class="after-space">&nbsp;</li>
-                            <li class="">Team name</li>
-                            <li class="after-space">&nbsp;</li>
-                            <li class="">Team name</li>
-                            <li class="after-space">&nbsp;</li>
-                            <li class="">Team name</li>
-                            <li class="after-space">&nbsp;</li>
-                            <li class="">Team name</li>
-                            <li class="after-space">&nbsp;</li>
-                            <li class="">Team name</li>
-                            <li class="after-space">&nbsp;</li>
-                            <li class="">Team name</li>
+                        <ul class="round round-3">
+                            <div class="box">
+                                <li class="team-name">Team name</li>
+                                <li class="team-name">Team name</li>
+                            </div>
                         </ul>
                     </div>
                     <div id="bottom">
-                        <ul class="round round-3">
-                            <li class="">Team name</li>
-                            <li class="after-space">&nbsp;</li>
-                            <li class="">Team name</li>
+                    <ul class="round round-1">
+                            <div class="box">
+                                <li class="knocked-out team-name">Team name</li>
+                                <li class="selected team-name">Team name</li>
+                            </div>
+                            <div class="box">
+                                <li class="team-name">Team name</li>
+                                <li class="team-name">Team name</li>
+                            </div>
+                            <div class="box">
+                                <li class="team-name">Team name</li>
+                                <li class="team-name">Team name</li>
+                            </div>
+                            <div class="box">
+                                <li class="team-name">Team name</li>
+                                <li class="team-name">Team name</li>
+                            </div>
                         </ul>
                         <ul class="round round-2">
-                            <li class="">Team name</li>
-                            <li class="after-space">&nbsp;</li>
-                            <li class="">Team name</li>
-                            <li class="after-space">&nbsp;</li>
-                            <li class="">Team name</li>
-                            <li class="after-space">&nbsp;</li>
-                            <li class="">Team name</li>
+                            <div class="box">
+                                <li class="team-name">Team name</li>
+                                <li class="team-name">Team name</li>
+                            </div>
+                            <div class="box">
+                                <li class="team-name">Team name</li>
+                                <li class="team-name">Team name</li>
+                            </div>
                         </ul>
-
-                        <ul class="round round-1">
-                            <li class="">Team name</li>
-                            <li class="after-space">&nbsp;</li>
-                            <li class="">Team name</li>
-                            <li class="after-space">&nbsp;</li>
-                            <li class="">Team name</li>
-                            <li class="after-space">&nbsp;</li>
-                            <li class="">Team name</li>
-                            <li class="after-space">&nbsp;</li>
-                            <li class="">Team name</li>
-                            <li class="after-space">&nbsp;</li>
-                            <li class="">Team name</li>
-                            <li class="after-space">&nbsp;</li>
-                            <li class="">Team name</li>
-                            <li class="after-space">&nbsp;</li>
-                            <li class="">Team name</li>
+                        <ul class="round round-3">
+                            <div class="box">
+                                <li class="team-name">Team name</li>
+                                <li class="team-name">Team name</li>
+                            </div>
                         </ul>
                     </div>
                 </div>

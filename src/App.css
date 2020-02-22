@@ -1,3 +1,14 @@
+:root {
+    --group-1-team-color: pink;
+    --group-2-team-color: orange;
+    --group-3-team-color: green;
+    --group-4-team-color: blue;
+    --group-1-box-color: pink;
+    --group-2-box-color: orange;
+    --group-3-box-color: green;
+    --group-4-box-color: blue;
+}
+
 .App {
   text-align: center;
 }
@@ -57,40 +68,51 @@
     margin: 50px;
 }
 
-#left > #top > .round-3{
-    background-color: aquamarine;
-}
-#left > #top li {
-    background-color: pink;
+
+#left > #top .team-name {
+    background-color: var(--group-1-team-color);
 }
 
-#left > #bottom > .round-3 {
-    background-color: bisque;
-}
-#left > #bottom li {
-    background-color: orange;
-}
-#right > #top > .round-3{
-    background-color: greenyellow;
+#left > #bottom .team-name {
+    background-color: var(--group-2-team-color);
 }
 
-#right > #top li {
-    background-color: green;
+#right > #top .team-name {
+    background-color: var(--group-3-team-color);
 }
 
-#right > #bottom > .round-3 {
-    background-color: cyan;
+#right > #bottom .team-name {
+    background-color: var(--group-4-team-color);
 }
 
-#right > #bottom li {
-    background-color: blue;
+#left  #top .box {
+    background-color: var(--group-1-box-color);
+}
+
+#left  #bottom .box {
+    background-color: var(--group-2-box-color);
+}
+
+#right  #top .box {
+    background-color: var(--group-3-box-color);
+}
+
+#right  #bottom .box {
+    background-color: var(--group-4-box-color);
+}
+
+#top .round-2, #top .round-3 {
+    flex-direction: column-reverse;
+}
+
+.box {
+    margin: 1%;
+    z-index: -1;
 }
 
 li {
     list-style: none;
     text-align: center;
-    margin: 5px;
-    padding: 2px 5px;
     border-radius: 5px;
 }
 
@@ -102,15 +124,19 @@ li {
     font-weight: bold;
 }
 
-.after-space:nth-child(4n + 2){
+
+.round-3 .after-space {
     flex: 2;
-    margin: -10% 0;
+    margin: -35% -10%;
+    z-index: -1;
 }
 
-.after-space:nth-child(4n + 4){
+
+
+/* .after-space:nth-child(4n + 4){
     border: 1px solid black;
     background-color: white;
-}
+} */
 
 #center {
     margin: auto;
@@ -121,4 +147,10 @@ li {
 .round {
     display: flex;
     flex-direction: column;
+}
+
+
+.filler {
+    flex: 4;
+    margin: -10% 5%;
 }
