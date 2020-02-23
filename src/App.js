@@ -11,20 +11,7 @@ function App() {
             'name': 'Stage2',
         }
     ];
-    var treeData =
-    {
-        "name": "Top Level",
-        "children": [
-            {
-                "name": "Level 2: A",
-                "children": [
-                    { "name": "Son of A" },
-                    { "name": "Daughter of A" }
-                ]
-            },
-            { "name": "Level 2: B" }
-        ]
-    };
+    
     const boxes = data.map(stage => (<div>{stage.name}</div>));
 
 
@@ -47,6 +34,9 @@ function App() {
                             </section>
 
                             <div class="connecter">
+                                <div></div>
+                                <div></div>
+                                <div></div>
                                 <div></div>
                                 <div></div>
                                 <div></div>
